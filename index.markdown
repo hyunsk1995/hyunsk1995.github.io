@@ -7,8 +7,11 @@ layout: home
 
 
 Name: Hyunseong Kim
+-------------------
 Tel: 010-6545-5483
+-------------------
 Email: hyunskcj@gmail.com
+-------------------
 
 Education
 1.	(2021.08 ~ 2024.02) Department of Computer Science and Engineering, Pohang University of Science and Technology (M.S.) 
