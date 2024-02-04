@@ -1,4 +1,2 @@
-.idea/
-_site
-vendor/ruby
-.vscode
+_site/
+.sass-cache/

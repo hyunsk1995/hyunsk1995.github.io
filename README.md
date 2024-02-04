@@ -1,29 +1,40 @@
-# Portfolio
+# An Exhibition of a Hunger Artist
 
-A simple and modern portfolio template that is lightweight, mobile responsive and looks modern. 
+Here is the blog of WHY: [https://einhungerkuenstler.github.io](https://einhungerkuenstler.github.io)
 
-- [Demo](#demo)
-- [Screenshots](#screenshots)
-- [Features](#features)
-- [Installation](#installation)
+## Contents
 
-### Demo
-[abhn.github.io/portfolio](https://abhn.github.io/portfolio)
+- [Theme](#Theme)
+  - [Maths](#Maths)
+- [License](#license)
 
-### Screenshots
-![homepage](tmp/screenshot.jpg?raw=true "Homepage")
+## Rationale
 
-### Features
-- Single page portfolio made with vanilla CSS and jQuery
-- Sections: Landing, About, Skills (with neat bar graphs), Projects, Contact
-- Smooth scrolling
-- Fully mobile responsive, made with latest CSS3 grid and flexbox, polyfills included
-- Lightweight and easily customizable
+In March 2023, I had an idea to create my own personal webpage. Finally, after finishing my exams and during the summer vacation, I found the time to complete it. The main purpose of this webpage is to share some notes I've written on mathematics and physics. Additionally, I'll be sharing my interests in music, literature, philosophy, data science, quantitative finance and more. If I'm not feeling too lazy, I might also share some thoughts and experiences on this website!
+##  Theme
 
-### Installation
-- Clone this repository and in the settings, set up Github pages in the setting and optionally a custom domain. The site is live now on `your-username.github.io/portfolio`.
-- In the config variables, add your details and if you use Google Analytics, add your Publisher ID in the `google_analytics` variable.
-- You can add/remove sections from the `_layouts/default.html` file, and then adding the corresponding html file in `_includes/` directory.
+I use the theme [catbook](https://github.com/starry99/catbook)
+ 
+I have not changed any style of this theme, at least for now.
 
-### License
-GPL
+### Maths
+
+  I decide to use Katex to render my maths. To get it to work, I just added the following html into my `head.html` file under my `_includes/` folder:
+
+```html
+<!-- Katex -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+```
+Remeber you just could $$ but $ could not work.
+
+For example, $$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$
+## license
+
+[MIT License](https://opensource.org/licenses/MIT)
