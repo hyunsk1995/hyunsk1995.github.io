@@ -22,7 +22,7 @@ Email: hyunskcj@gmail.com <br/>
 
 # Projects
 1.	(2021.08 ~ 2023.12) Development of Object Detection and Recognition for Intelligent Vehicles (SW Starlab, funded by the Ministry of Science, ICT of Korea) 
-	Character detection & recognition
+*	Character detection & recognition
 
 2.	(2022.03 ~ 2022.11) Autonomous Driving Challenge (Ministry of Trade, Industry and Energy) 
 
