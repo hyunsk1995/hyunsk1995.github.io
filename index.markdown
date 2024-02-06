@@ -17,7 +17,7 @@ Email: hyunskcj@gmail.com <br/>
 
 # Publication
 1.	Hyunseong Kim, Taehun Kim, Eunseop Lee, Daijin Kim, “Disentangling Image Features using Laplacian Pyramid in Hierarchical Vector Quantized-Variational Autoencoder”,
-*   [Github] (https://github.com/hyunsk1995/Enhancing-Image-Fidelity-in-VQ-GAN-with-Laplacian-Pyramid-Disentanglement)!
+[Github] (https://github.com/hyunsk1995/Enhancing-Image-Fidelity-in-VQ-GAN-with-Laplacian-Pyramid-Disentanglement)!
 *	Accepted by Korea Software Congress 2023 (한국정보과학회)
 *	Submitted to Association for Uncertainty in Artificial Intelligent 2024
 
